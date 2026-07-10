@@ -5,5 +5,7 @@ int main(){
     int x;
     cin >> x;//to get input
     cout << x;//to show output
+    string c;
+    getline(cin, c);//used to get a whole string alltogether
     return 0;
 }
